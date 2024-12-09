@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://finda-doctor-api.vercel.app/api',
     withCredentials: true, // Ensure this is set
 });
 
